@@ -2,10 +2,10 @@
     @include texto(2.4rem,500,map-get($map:$paleta, $key: 'third'));
     margin: 1rem 0;
     @include cel{
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     @media screen and (max-width: 687px) and (min-width: 362px){
-        font-size: 4.1rem;
+        font-size: 3.6rem;
     }
     @include tablet-xl{
         font-size: 2.4rem;

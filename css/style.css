@@ -8209,10 +8209,10 @@ footer {
   margin: 1rem 0; }
   @media screen and (max-width: 361px) {
     .parrafos {
-      font-size: 3.5rem; } }
+      font-size: 3rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .parrafos {
-      font-size: 4.1rem; } }
+      font-size: 3.6rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .parrafos {
       font-size: 2.4rem; } }
