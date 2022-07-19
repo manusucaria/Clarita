@@ -6,7 +6,7 @@ footer{
         @include texto(2rem,500,map-get($map:$paleta, $key: 'third'));
         transition: transform .1s;
         &:hover{
-            color: $hovers;
+            color: $hoversMain;
             transform: translateX(.5px);
         }
         @include cel{

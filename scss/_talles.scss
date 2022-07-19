@@ -50,11 +50,11 @@ main{
     }
 }
 .fondo-talles{
-    background-color: map-get($map:$paleta, $key: 'forth');
+    background-color: map-get($map:$paleta, $key: 'secondary');
     border-top: map-get($map:$paleta, $key: 'main') solid 1.2px;
 }
 .fondo-tablas{
-    background-color: map-get($map:$paleta, $key: 'forth');
+    background-color: map-get($map:$paleta, $key: 'secondary');
     border-top: map-get($map:$paleta, $key: 'main') solid 1.2px;
 }
 .tablas-margin{

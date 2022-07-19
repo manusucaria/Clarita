@@ -7,7 +7,7 @@ header{
         font-family: $conjuro;
         transition: transform .1s;
         &:hover{
-            color: $hovers;
+            color: $hoversMain;
             transform: translateX(.5px);
         }
         @include cel{
@@ -31,7 +31,7 @@ header{
         font-family: $subtitulo;
         transition: transform .1s;
         &:hover{
-            color: $hovers;
+            color: $hoversMain;
             transform: translateX(.5px);
         }
         @include cel{
@@ -82,7 +82,7 @@ header{
                     }
                     transition: transform .1s;
                     &:hover{
-                        color: $hovers;
+                        color: $hoversMain;
                         transform: translateX(.5px);
                     }
                 }
