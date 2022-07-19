@@ -8399,7 +8399,7 @@ main section form fieldset {
 
 .titulo-carrito {
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 400;
   color: #3f434b; }
   @media screen and (max-width: 361px) {
     .titulo-carrito {
@@ -8419,7 +8419,7 @@ main section form fieldset {
 
 .titulo-mapa {
   font-size: 2.7rem;
-  font-weight: 500;
+  font-weight: 400;
   color: #3f434b; }
   @media screen and (max-width: 361px) {
     .titulo-mapa {
@@ -8470,7 +8470,7 @@ main section form fieldset {
 
 .titulo-nosotros {
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 400;
   color: #3f434b; }
   @media screen and (max-width: 361px) {
     .titulo-nosotros {
@@ -8532,7 +8532,7 @@ main section table td {
 
 .titulo-talles {
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 400;
   color: #3f434b; }
   @media screen and (max-width: 361px) {
     .titulo-talles {

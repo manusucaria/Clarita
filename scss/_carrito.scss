@@ -143,7 +143,7 @@ main section form fieldset{
     100%{background:linear-gradient(to top, map-get($map:$paleta, $key: 'main'), map-get($map:$paleta, $key: 'third'))}
 }
 .titulo-carrito{
-    @include texto(3rem,500,map-get($map:$paleta, $key: 'third'));
+    @include texto(3rem,400,map-get($map:$paleta, $key: 'third'));
     @include cel{
         font-size: 3.7rem;
     }
@@ -161,7 +161,7 @@ main section form fieldset{
     }
 }
 .titulo-mapa{
-    @include texto(2.7rem,500,map-get($map:$paleta, $key: 'third'));
+    @include texto(2.7rem,400,map-get($map:$paleta, $key: 'third'));
     @include cel{
         font-size: 3.7rem;
     }
