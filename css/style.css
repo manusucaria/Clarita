@@ -8117,7 +8117,7 @@ footer {
   width: 100%; }
   footer p {
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 400;
     color: #3f434b;
     transition: transform .1s; }
     footer p:hover {
@@ -8125,16 +8125,16 @@ footer {
       transform: translateX(0.5px); }
     @media screen and (max-width: 361px) {
       footer p {
-        font-size: 2.5rem; } }
+        font-size: 2.4rem; } }
     @media screen and (max-width: 687px) and (min-width: 362px) {
       footer p {
-        font-size: 3.4rem; } }
+        font-size: 3.1rem; } }
     @media screen and (min-width: 688px) and (max-width: 900px) {
       footer p {
-        font-size: 2.1rem; } }
+        font-size: 2rem; } }
     @media screen and (min-width: 901px) and (max-width: 1110px) {
       footer p {
-        font-size: 2.1rem; } }
+        font-size: 2rem; } }
     @media screen and (min-width: 1111px) and (max-width: 1199px) {
       footer p {
         font-size: 1.7rem; } }
@@ -8151,7 +8151,7 @@ footer {
         display: none; } }
     @media screen and (max-width: 687px) and (min-width: 362px) {
       footer h4, footer .h4 {
-        font-size: 3.8rem;
+        font-size: 3.6rem;
         display: none; } }
     @media screen and (min-width: 688px) and (max-width: 900px) {
       footer h4, footer .h4 {
@@ -8159,7 +8159,7 @@ footer {
         display: none; } }
     @media screen and (min-width: 901px) and (max-width: 1110px) {
       footer h4, footer .h4 {
-        font-size: 2.2rem;
+        font-size: 2.1rem;
         display: none; } }
     @media screen and (min-width: 1111px) and (max-width: 1199px) {
       footer h4, footer .h4 {
@@ -8209,16 +8209,16 @@ footer {
   margin: 1rem 0; }
   @media screen and (max-width: 361px) {
     .parrafos {
-      font-size: 3.7rem; } }
+      font-size: 3.5rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .parrafos {
-      font-size: 4.7rem; } }
+      font-size: 4.1rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .parrafos {
-      font-size: 2.7rem; } }
+      font-size: 2.4rem; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     .parrafos {
-      font-size: 2.7rem; } }
+      font-size: 2.3rem; } }
   @media screen and (min-width: 1111px) and (max-width: 1199px) {
     .parrafos {
       font-size: 2.1rem; } }
@@ -8236,7 +8236,7 @@ footer {
       font-size: 2.1rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .precios {
-      font-size: 3.2rem; } }
+      font-size: 3rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .precios {
       font-size: 1.8rem; } }
