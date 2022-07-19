@@ -7,16 +7,16 @@ main section form fieldset{
         border: 1px solid $borders2;
         border-bottom: map-get($map:$paleta, $key: 'forth') solid 1px;
         @include cel{
-            font-size: 3.7rem;
+            font-size: 3.5rem;
         }
         @media screen and (max-width: 687px) and (min-width: 362px){
-            font-size: 4rem;
+            font-size: 3.8rem;
         }
         @include tablet-xl{
-            font-size: 2.5rem;
+            font-size: 2.4rem;
         }
         @include desktop{
-            font-size: 2.7rem;
+            font-size: 2.6rem;
         }
         @include wide{
             font-size: 2.3rem;
@@ -26,19 +26,19 @@ main section form fieldset{
         @include texto (2.7rem,400,map-get($map:$paleta, $key: 'third'));
         opacity: .9;
         @include cel{
-            font-size: 3.7rem;
+            font-size: 3.3rem;
         }
         @media screen and (max-width: 687px) and (min-width: 362px){
-            font-size: 4rem;
+            font-size: 3.6rem;
         }
         @include tablet-xl{
-            font-size: 2.5rem;
+            font-size: 2.4rem;
         }
         @include desktop{
-            font-size: 2.7rem;
+            font-size: 2.6rem;
         }
         @include wide{
-            font-size: 2.5rem;
+            font-size: 2.3rem;
         }
     }
     select{
@@ -50,19 +50,19 @@ main section form fieldset{
         border: 1px solid $borders2;
         border-bottom: map-get($map:$paleta, $key: 'forth') solid 1px;
         @include cel{
-            font-size: 3.7rem;
+            font-size: 3.3rem;
         }
         @media screen and (max-width: 687px) and (min-width: 362px){
-            font-size: 4rem;
+            font-size: 3.6rem;
         }
         @include tablet-xl{
-            font-size: 2.5rem;
+            font-size: 2.4rem;
         }
         @include desktop{
-            font-size: 2.7rem;
+            font-size: 2.6rem;
         }
         @include wide{
-            font-size: 2.5rem;
+            font-size: 2.3rem;
         }
         option{
             @include texto(2.2rem,300,map-get($map:$paleta, $key: 'third'));
@@ -73,19 +73,19 @@ main section form fieldset{
             color: map-get($map:$paleta, $key: 'third');
             border: .5px solid $borders2;
             @include cel{
-                font-size: 3.7rem;
+                font-size: 3.3rem;
             }
             @media screen and (max-width: 687px) and (min-width: 362px){
-                font-size: 4rem;
+                font-size: 3.6rem;
             }
             @include tablet-xl{
-                font-size: 2.5rem;
+                font-size: 2.4rem;
             }
             @include desktop{
-                font-size: 2.7rem;
+                font-size: 2.6rem;
             }
             @include wide{
-                font-size: 2.5rem;
+                font-size: 2.3rem;
             }
             &:hover{
                 animation-name: animateDiv;
@@ -145,10 +145,10 @@ main section form fieldset{
 .titulo-carrito{
     @include texto(3rem,500,map-get($map:$paleta, $key: 'third'));
     @include cel{
-        font-size: 4rem;
+        font-size: 3.7rem;
     }
     @media screen and (max-width: 687px) and (min-width: 362px){
-        font-size: 4.7rem;
+        font-size: 4rem;
     }
     @include tablet-xl{
         font-size: 3rem;

@@ -4,10 +4,10 @@
 .titulo-nosotros{
     @include texto(3rem,500,map-get($map:$paleta, $key: 'third'));
     @include cel{
-        font-size: 4rem;
+        font-size: 3.7rem;
     }
     @media screen and (max-width: 687px) and (min-width: 362px){
-        font-size: 4.7rem;
+        font-size: 4rem;
     }
     @include tablet-xl{
         font-size: 3rem;

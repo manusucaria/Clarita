@@ -4,19 +4,19 @@ main{
             th{
                 @include texto(2rem,300,map-get($map:$paleta, $key: 'third'));
                 @include cel{
-                    font-size: 2.7rem;
+                    font-size: 3rem;
                 }
                 @media screen and (max-width: 687px) and (min-width: 362px){
-                    font-size: 3rem;
+                    font-size: 3.3rem;
                 }
             }
             td{
                 @include texto(1.7rem,200,map-get($map:$paleta, $key: 'third'));
                 @include cel{
-                    font-size: 2.3rem;
+                    font-size: 2.6rem;
                 }
                 @media screen and (max-width: 687px) and (min-width: 362px){
-                    font-size: 2.6rem;
+                    font-size: 2.9rem;
                 }
             }
         }
@@ -25,25 +25,25 @@ main{
 .titulo-talles{
     @include texto(3rem,500,map-get($map:$paleta, $key: 'third'));
     @include cel{
-        font-size: 4rem;
+        font-size: 3.7rem;
     }
     @media screen and (max-width: 687px) and (min-width: 362px){
-        font-size: 4.7rem;
+        font-size: 4rem;
     }
     @include tablet-xl{
         font-size: 3rem;
     }
     @include desktop{
-        font-size: 3.5rem;
+        font-size: 3.1rem;
     }
     @include wide{
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
 }
 .titulos-tablas{
     @include texto(2.3rem,400,map-get($map:$paleta, $key: 'third'));
     @include cel{
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
     @media screen and (max-width: 687px) and (min-width: 362px){
         font-size: 3rem;
