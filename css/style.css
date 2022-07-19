@@ -7869,7 +7869,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow-y: scroll; }
+  overflow-y: scroll;
+  overflow-x: hidden; }
 
 a {
   text-decoration: none; }
@@ -7947,13 +7948,13 @@ header {
       transition: transform .1s; }
       @media screen and (max-width: 361px) {
         header ul li a p {
-          font-size: 2.3rem; } }
+          font-size: 4.5rem; } }
       @media screen and (max-width: 450px) and (min-width: 362px) {
         header ul li a p {
-          font-size: 3.3rem; } }
+          font-size: 4.5rem; } }
       @media screen and (max-width: 687px) and (min-width: 451px) {
         header ul li a p {
-          font-size: 3.3rem; } }
+          font-size: 3.5rem; } }
       @media screen and (min-width: 688px) and (max-width: 767px) {
         header ul li a p {
           font-size: 1.6rem; } }
@@ -7999,12 +8000,12 @@ header {
     transform: rotate(180deg); }
   @media screen and (max-width: 361px) {
     .logo {
-      height: 35px;
-      width: 35px; } }
+      height: 38px;
+      width: 38px; } }
   @media screen and (max-width: 450px) and (min-width: 362px) {
     .logo {
-      height: 37px;
-      width: 37px; } }
+      height: 39px;
+      width: 39px; } }
   @media screen and (max-width: 687px) and (min-width: 451px) {
     .logo {
       height: 50px;
@@ -8032,18 +8033,18 @@ header {
     transform: translateX(0.5px); }
   @media screen and (max-width: 361px) {
     .botones {
-      height: 15px;
-      width: 15px;
+      height: 23px;
+      width: 23px;
       margin-left: 1rem; } }
   @media screen and (max-width: 450px) and (min-width: 362px) {
     .botones {
-      height: 14px;
-      width: 14px;
+      height: 21px;
+      width: 21px;
       margin-left: 1rem; } }
   @media screen and (max-width: 687px) and (min-width: 451px) {
     .botones {
-      height: 17px;
-      width: 17px;
+      height: 20px;
+      width: 20px;
       margin-left: 1rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .botones {
@@ -8080,6 +8081,9 @@ header {
       height: 25px;
       width: 100px; } }
 
+.hamburguesa {
+  height: 23px; }
+
 main section div a h3, main section div a .h3 {
   font-size: 3rem;
   font-weight: 500;
@@ -8104,12 +8108,6 @@ main section div a h3, main section div a .h3 {
   @media screen and (min-width: 1111px) and (max-width: 1350px) {
     main section div a h3, main section div a .h3 {
       font-size: 2.4rem; } }
-
-.margin-articles {
-  margin-top: 10rem; }
-
-.secciones {
-  width: 65%; }
 
 footer {
   margin-top: auto;

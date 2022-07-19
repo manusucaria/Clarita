@@ -60,13 +60,13 @@ header{
                     @include texto(2.7rem,400,map-get($map:$paleta, $key: 'third'));
                     font-family: $richard;
                     @include cel{
-                        font-size: 2.3rem;
+                        font-size: 4.5rem;
                     }
                     @include smart{
-                        font-size: 3.3rem;
+                        font-size: 4.5rem;
                     }
                     @include tablet{
-                        font-size: 3.3rem;
+                        font-size: 3.5rem;
                     }
                     @media screen and (min-width: 688px) and (max-width: 767px){
                         font-size: 1.6rem;
@@ -121,12 +121,12 @@ header{
         transform: rotate(180deg);
     }
     @include cel{
-        height: 35px;
-        width: 35px;
+        height: 38px;
+        width: 38px;
     }
     @include smart{
-        height: 37px;
-        width: 37px;
+        height: 39px;
+        width: 39px;
     }
     @include tablet{
         height: 50px;
@@ -155,18 +155,18 @@ header{
         transform: translateX(.5px);
     }
     @include cel{
-        height: 15px;
-        width: 15px;
+        height: 23px;
+        width: 23px;
         margin-left: 1rem;;
     }
     @include smart{
-        height: 14px;
-        width: 14px;
+        height: 21px;
+        width: 21px;
         margin-left: 1rem;
     }
     @include tablet{
-        height: 17px;
-        width: 17px;
+        height: 20px;
+        width: 20px;
         margin-left: 1rem;
     }
     @include tablet-xl{
@@ -204,4 +204,7 @@ header{
         height: 25px;
         width: 100px;
     }
+}
+.hamburguesa{
+    height: 23px;
 }
