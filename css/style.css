@@ -8138,11 +8138,7 @@ main section div a h3, main section div a .h3 {
   color: #151414; }
   .text-op-main:hover {
     opacity: 1;
-    -webkit-transition: opacity 500ms;
-    -moz-transition: opacity 500ms;
-    -o-transition: opacity 500ms;
-    -ms-transition: opacity 500ms;
-    transition: opacity 1s; }
+    transition: opacity 1s ease; }
   @media screen and (max-width: 767px) {
     .text-op-main {
       display: none; } }
@@ -8584,10 +8580,6 @@ footer {
   .img-op:hover {
     transform: scale(1.03);
     opacity: 0.3;
-    -webkit-transition: opacity 500ms;
-    -moz-transition: opacity 500ms;
-    -o-transition: opacity 500ms;
-    -ms-transition: opacity 500ms;
     transition: transform 1s, opacity 1s; }
   @media screen and (max-width: 687px) {
     .img-op:hover {
@@ -8600,7 +8592,7 @@ footer {
   font-weight: 500; }
   .text-op:hover {
     opacity: 1;
-    transition: opacity 1s; }
+    transition: opacity 1s ease; }
   @media screen and (max-width: 687px) {
     .text-op {
       display: none; } }

@@ -340,10 +340,6 @@
     &:hover{
         transform: scale(1.03);
         opacity: 0.3;
-        -webkit-transition: opacity 500ms;
-        -moz-transition: opacity 500ms;
-        -o-transition: opacity 500ms;
-        -ms-transition: opacity 500ms;
         transition: transform 1s, opacity 1s;
     }
     @media screen and (max-width: 687px) {
@@ -358,7 +354,7 @@
     @include texto(2.4rem,500,map-get($map:$paleta, $key: 'fifth'));
     &:hover{
         opacity: 1;
-        transition: opacity 1s;
+        transition: opacity 1s ease;
     }
     @media screen and (max-width: 687px) {
         display: none;
