@@ -63,5 +63,11 @@ main div{
 }
 .width-tabla{
     width: 70%;
-    border: 5px solid map-get($map:$paleta, $key: 'main');
+    border: .3rem solid map-get($map:$paleta, $key: 'main');
+    @include cel{
+        width: 80%;
+    }
+    @include smart{
+        width: 80%;
+    }
 }

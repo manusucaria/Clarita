@@ -20,8 +20,8 @@ main{
     margin-bottom: 5rem;
 }
 main img{
-    transition: transform 1.6s ease;
     &:hover{
         transform: scale(1.03);
+        transition: transform 1.6s ease;
     }
 }

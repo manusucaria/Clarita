@@ -180,8 +180,14 @@ main section form fieldset{
 }
 .form-fondo{
     background-color: map-get($map: $paleta, $key:'secondary');
+    border: .3rem solid map-get($map:$paleta, $key: 'main');
     width: 70%;
-    border: 5px solid map-get($map:$paleta, $key: 'main');
+    @include cel{
+        width: 80%;
+    }
+    @include smart{
+        width: 80%;
+    }
 }
 .ubicacion{
     margin-top: 5rem;

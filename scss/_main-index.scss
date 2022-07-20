@@ -31,5 +31,43 @@ main{
     }
 }
 .bordes-main{
-    border: map-get($map:$paleta, $key: 'main') solid 3px;
+    border: map-get($map:$paleta, $key: 'main') solid .1rem;
+}
+.div-main {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+.img-op-main{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    &:hover{
+        opacity: 0.4;
+        -webkit-transition: opacity 500ms;
+        -moz-transition: opacity 500ms;
+        -o-transition: opacity 500ms;
+        -ms-transition: opacity 500ms;
+        transition: opacity 1s;
+    }
+    @media screen and (max-width: 767px) {
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
+.text-op-main{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    @include texto(2.7rem,500,map-get($map:$paleta, $key: 'black'));
+    &:hover{
+        opacity: 1;
+        -webkit-transition: opacity 500ms;
+        -moz-transition: opacity 500ms;
+        -o-transition: opacity 500ms;
+        -ms-transition: opacity 500ms;
+        transition: opacity 1s;
+    }
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
 }
