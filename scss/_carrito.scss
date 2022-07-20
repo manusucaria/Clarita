@@ -181,9 +181,10 @@ main section form fieldset{
 .form-fondo{
     background-color: map-get($map: $paleta, $key:'secondary');
     width: 70%;
+    border: 5px solid map-get($map:$paleta, $key: 'main');
 }
 .ubicacion{
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 .botones-enviar{
     cursor: pointer;

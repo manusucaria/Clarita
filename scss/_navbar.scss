@@ -1,6 +1,6 @@
 //NAV
 header{
-    background-color: rgba(map-get($map:$paleta, $key: 'main'), $alpha: .6);
+    background-color: rgba(map-get($map:$paleta, $key: 'main'), $alpha: .7);
     width: 100%;
     h1{
         @include texto(6rem,600,map-get($map:$paleta, $key: 'third'));
@@ -121,20 +121,20 @@ header{
         transform: rotate(180deg);
     }
     @include cel{
-        height: 38px;
-        width: 38px;
+        height: 45px;
+        width: 45px;
     }
     @include smart{
-        height: 39px;
-        width: 39px;
-    }
-    @include tablet{
         height: 50px;
         width: 50px;
     }
+    @include tablet{
+        height: 57px;
+        width: 57px;
+    }
     @include tablet-xl{
-        height: 65px;
-        width: 65px;
+        height: 75px;
+        width: 75px;
     }
     @include desktop{
         height: 90px;

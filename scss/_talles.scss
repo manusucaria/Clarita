@@ -1,4 +1,4 @@
-main{
+main div{
     section{
         table{
             th{
@@ -51,15 +51,17 @@ main{
 }
 .fondo-talles{
     background-color: map-get($map:$paleta, $key: 'secondary');
-    border-top: map-get($map:$paleta, $key: 'main') solid 1.2px;
+    border-top: map-get($map:$paleta, $key: 'main') solid 3px;
 }
 .fondo-tablas{
     background-color: map-get($map:$paleta, $key: 'secondary');
-    border-top: map-get($map:$paleta, $key: 'main') solid 1.2px;
+    border-top: map-get($map:$paleta, $key: 'main') solid 3px;
+    border-bottom: map-get($map:$paleta, $key: 'main') solid 3px;
 }
 .tablas-margin{
     margin: 0;
 }
 .width-tabla{
     width: 70%;
+    border: 5px solid map-get($map:$paleta, $key: 'main');
 }

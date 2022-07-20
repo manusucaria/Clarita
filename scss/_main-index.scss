@@ -30,3 +30,6 @@ main{
         }
     }
 }
+.bordes-main{
+    border: map-get($map:$paleta, $key: 'main') solid 3px;
+}
