@@ -342,21 +342,22 @@
         opacity: 0.3;
         transition: transform 1s, opacity 1s;
     }
-    @media screen and (max-width: 687px) {
-        &:hover{
-            opacity: 1;
-        }
-    }
 }
 .text-op{
     grid-column: 1/2;
     grid-row: 1/2;
-    @include texto(2.4rem,500,map-get($map:$paleta, $key: 'fifth'));
+    @include texto(2.5rem,500,map-get($map:$paleta, $key: 'fifth'));
+    @include cel{
+        font-size: 4rem;
+    }
+    @include smart{
+        font-size: 5rem;
+    }
+    @include tablet{
+        font-size: 5rem;
+    }
     &:hover{
         opacity: 1;
         transition: opacity 1s ease;
-    }
-    @media screen and (max-width: 687px) {
-        display: none;
     }
 }

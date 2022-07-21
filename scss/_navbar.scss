@@ -1,9 +1,12 @@
 //NAV
 header{
-    background-color: rgba(map-get($map:$paleta, $key: 'main'), $alpha: .7);
+    background-color: rgba(map-get($map:$paleta, $key: 'main'), $alpha: .9);
     width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
     h1{
-        @include texto(6rem,600,map-get($map:$paleta, $key: 'third'));
+        @include texto(6rem,600,map-get($map:$paleta, $key: 'white'));
         font-family: $conjuro;
         transition: transform .1s;
         &:hover{
@@ -27,7 +30,7 @@ header{
         }
     }
     p{
-        @include texto(2rem,300,map-get($map:$paleta, $key: 'third'));
+        @include texto(2rem,300,map-get($map:$paleta, $key: 'white'));
         font-family: $subtitulo;
         transition: transform .1s;
         &:hover{
@@ -57,7 +60,7 @@ header{
         list-style-type: none;
         li a{
                 p{
-                    @include texto(2.7rem,400,map-get($map:$paleta, $key: 'third'));
+                    @include texto(2.7rem,400,map-get($map:$paleta, $key: 'white'));
                     font-family: $richard;
                     @include cel{
                         font-size: 4.5rem;
@@ -207,4 +210,7 @@ header{
 }
 .hamburguesa{
     height: 23px;
+}
+.border-li{
+    border-top: .1rem solid map-get($map:$paleta, $key: 'white');
 }

@@ -1,9 +1,9 @@
 footer{
     margin-top: auto;
-    background-color: rgba(map-get($map:$paleta, $key: 'main'), $alpha: .8);
+    background-color: rgba(map-get($map:$paleta, $key: 'main'), $alpha: .9);
     width: 100%;
     p{
-        @include texto(2rem,400,map-get($map:$paleta, $key: 'third'));
+        @include texto(2rem,400,map-get($map:$paleta, $key: 'white'));
         transition: transform .1s;
         &:hover{
             color: $hoversMain;
@@ -29,7 +29,7 @@ footer{
         }
     }
     h4{
-        @include texto(2.1rem,500,map-get($map:$paleta, $key: 'third'));
+        @include texto(2.1rem,500,map-get($map:$paleta, $key: 'white'));
         @include cel{
             font-size: 2.8rem;
             display: none;
@@ -54,7 +54,7 @@ footer{
         }
     }
     h5{
-        @include texto(1.5rem,500,map-get($map:$paleta, $key: 'third'));
+        @include texto(1.5rem,500,map-get($map:$paleta, $key: 'white'));
         @include cel{
             font-size: 1.7rem;
         }
