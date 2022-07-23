@@ -1,7 +1,7 @@
 main section form fieldset{
     border-color: transparent;
     input{
-        @include texto(2.5rem, 400, map-get($map:$paleta, $key: 'third'));
+        @include texto(2.5rem, 400, map-get($map:$paleta, $key: 'black'));
         background-color: map-get($map:$paleta, $key: 'white');
         opacity: .9;
         border: 1px solid $borders2;
@@ -23,7 +23,7 @@ main section form fieldset{
         }
     }
     label{
-        @include texto (2.7rem,400,map-get($map:$paleta, $key: 'third'));
+        @include texto (2.7rem,400,map-get($map:$paleta, $key: 'white'));
         opacity: .9;
         @include cel{
             font-size: 3.3rem;
@@ -42,10 +42,9 @@ main section form fieldset{
         }
     }
     select{
-        @include texto(2.5rem,400,map-get($map:$paleta, $key: 'third'));
+        @include texto(2.5rem,400,map-get($map:$paleta, $key: 'black'));
         height: 5rem;
         cursor: pointer;
-        background-color: map-get($map:$paleta, $key: 'white');
         opacity: .9;
         border: 1px solid $borders2;
         border-bottom: map-get($map:$paleta, $key: 'forth') solid 1px;
@@ -65,12 +64,12 @@ main section form fieldset{
             font-size: 2.3rem;
         }
         option{
-            @include texto(2.2rem,300,map-get($map:$paleta, $key: 'third'));
+            @include texto(2.2rem,300,map-get($map:$paleta, $key: 'black'));
         }
     }
     section{
         input{
-            color: map-get($map:$paleta, $key: 'third');
+            color: map-get($map:$paleta, $key: 'black');
             border: .5px solid $borders2;
             @include cel{
                 font-size: 3.3rem;
@@ -98,7 +97,7 @@ main section form fieldset{
         }
     }
     textarea{
-        @include texto(2.7rem, 400, map-get($map:$paleta, $key: 'third'));
+        @include texto(2.7rem, 400, map-get($map:$paleta, $key: 'black'));
         background-color: map-get($map:$paleta, $key: 'white');
         opacity: .9;
         border: 1px solid $borders2;
@@ -109,12 +108,12 @@ main section form fieldset{
     }
     div{
         input{
-            @include texto (2.3rem,300,map-get($map:$paleta, $key: 'third'));
+            @include texto (2.3rem,300,map-get($map:$paleta, $key: 'black'));
             background-color: map-get($map:$paleta, $key: 'white');
             border-radius: 15%;
         }
         label{
-            @include texto (2.3rem,300,map-get($map:$paleta, $key: 'third'));
+            @include texto (2.3rem,300,map-get($map:$paleta, $key: 'black'));
             background-color: map-get($map:$paleta, $key: 'white');
             border-radius: 10%;
             @include cel{
@@ -136,14 +135,15 @@ main section form fieldset{
     }
 }
 @keyframes animateDiv{
-    0%{background:linear-gradient(to top map-get($map:$paleta, $key: 'main'), map-get($map:$paleta, $key: 'third'))}
+    0%{background:linear-gradient(to top map-get($map:$paleta, $key: 'main'), map-get($map:$paleta, $key: 'white'))}
     25%{background:linear-gradient(to right, map-get($map:$paleta, $key: 'secondary'), map-get($map:$paleta, $key: 'main'))}
     50%{background:linear-gradient(to bottom, map-get($map:$paleta, $key: 'main'), map-get($map:$paleta, $key: 'secondary'))}
     75%{background:linear-gradient(to left, map-get($map:$paleta, $key: 'secondary'), map-get($map:$paleta, $key: 'main'))}
-    100%{background:linear-gradient(to top, map-get($map:$paleta, $key: 'main'), map-get($map:$paleta, $key: 'third'))}
+    100%{background:linear-gradient(to top, map-get($map:$paleta, $key: 'main'), map-get($map:$paleta, $key: 'white'))}
 }
 .titulo-carrito{
-    @include texto(3rem,400,map-get($map:$paleta, $key: 'third'));
+    @include texto(3rem,400,map-get($map:$paleta, $key: 'black'));
+    margin-bottom: 5rem;
     @include cel{
         font-size: 3.7rem;
     }
@@ -161,7 +161,7 @@ main section form fieldset{
     }
 }
 .titulo-mapa{
-    @include texto(2.7rem,400,map-get($map:$paleta, $key: 'third'));
+    @include texto(2.7rem,400,map-get($map:$paleta, $key: 'white'));
     @include cel{
         font-size: 3.7rem;
     }
@@ -179,8 +179,7 @@ main section form fieldset{
     }
 }
 .form-fondo{
-    background-color: map-get($map: $paleta, $key:'secondary');
-    border: .3rem solid map-get($map:$paleta, $key: 'main');
+    background-color: map-get($map: $paleta, $key:'main');
     width: 70%;
     @include cel{
         width: 80%;

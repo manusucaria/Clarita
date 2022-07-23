@@ -1,5 +1,4 @@
 .w-carousel{
-    border: .3rem solid map-get($map:$paleta, $key: 'main');
     width:70%;
     @include cel{
         width: 80%;
@@ -10,6 +9,7 @@
 }
 .titulo-nosotros{
     @include texto(3rem,400,map-get($map:$paleta, $key: 'third'));
+    margin-bottom: 5rem;
     @include cel{
         font-size: 3.7rem;
     }
@@ -20,10 +20,10 @@
         font-size: 3rem;
     }
     @include desktop{
-        font-size: 3.5rem;
+        font-size: 3.1rem;
     }
     @include wide{
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
 }
 .texto-nosotros{

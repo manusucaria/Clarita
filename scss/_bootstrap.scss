@@ -13,12 +13,12 @@ $gray-900: #151414;
 $black:    #000;
 
 /**TABLE***/
-$dark:          #A3BFBC;
+$dark:          #383146;
 $body-color:                $gray-900;
-$table-color:                 #A3BFBC;
+$table-color:                 #383146;
 $table-striped-color:         $table-color;
 $table-striped-bg-factor:     .03;
-$table-striped-bg:            rgba(#A3BFBC, $table-striped-bg-factor);
+$table-striped-bg:            rgba(#383146, $table-striped-bg-factor);
 
 /**TOGGLER**/
 $font-size-base:              1rem;
@@ -33,6 +33,13 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out;
 /**CARD**/
 $card-bg:                           #F2F1E9;
 $card-border-color:                 rgba(#F2F1E9, .125);
+
+/**CARRITO**/
+$component-active-color:      #F2F1E9;
+$component-active-bg:         #383146;
+$form-check-input-checked-color:          $component-active-color;
+$form-check-input-checked-bg-color:       #383146;
+$form-check-input-checked-border-color:   #383146;
 
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
