@@ -10,7 +10,7 @@ footer{
             transform: translateX(.5px);
         }
         @include cel{
-            font-size: 2.4rem;
+            font-size: 2.6rem;
         }
         @media screen and (max-width: 687px) and (min-width: 362px){
             font-size: 3.1rem;
@@ -31,7 +31,7 @@ footer{
     h4{
         @include texto(2.1rem,500,map-get($map:$paleta, $key: 'white'));
         @include cel{
-            font-size: 2.8rem;
+            font-size: 2.9rem;
             display: none;
         }
         @media screen and (max-width: 687px) and (min-width: 362px){
@@ -56,7 +56,7 @@ footer{
     h5{
         @include texto(1.5rem,500,map-get($map:$paleta, $key: 'white'));
         @include cel{
-            font-size: 1.7rem;
+            font-size: 1.9rem;
         }
         @media screen and (max-width: 687px) and (min-width: 362px){
             font-size: 2rem;
