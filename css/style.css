@@ -7877,6 +7877,10 @@ main {
   margin-top: 3rem;
   margin-bottom: 5rem; }
 
+main img:hover {
+  transform: scale(1.03);
+  transition: transform 1.6s ease; }
+
 header {
   background-color: rgba(242, 241, 233, 0.9);
   width: 100%;
@@ -7888,6 +7892,7 @@ header {
   header h1, header .h1 {
     font-size: 6rem;
     font-weight: 600;
+    color: #161515;
     font-family: "Dancing Script", sans-serif;
     transition: transform .1s; }
     header h1:hover, header .h1:hover {
@@ -7911,6 +7916,7 @@ header {
   header p {
     font-size: 2rem;
     font-weight: 300;
+    color: #161515;
     font-family: "Roboto, sans-serif";
     transition: transform .1s; }
     header p:hover {
@@ -7939,6 +7945,7 @@ header {
     header ul li a p {
       font-size: 2.7rem;
       font-weight: 400;
+      color: #161515;
       font-family: "Poor Richard", sans-serif;
       transition: transform .1s; }
       @media screen and (max-width: 361px) {
@@ -8090,7 +8097,7 @@ header {
   height: 30px; }
 
 .border-li {
-  border-top: 0.1rem solid; }
+  border-top: 0.1rem solid #161515; }
 
 .border-cat {
   border-top: 0.1rem solid #f5f3f3; }
@@ -8195,6 +8202,7 @@ main section div a h3, main section div a .h3 {
   margin: 5rem 0;
   font-size: 3.5rem;
   font-weight: 400;
+  color: #161515;
   font-family: "Poor Richard", sans-serif; }
   @media screen and (max-width: 361px) {
     .titulo-categorias {
@@ -8313,7 +8321,8 @@ main section div a h3, main section div a .h3 {
   grid-column: 3/4;
   grid-row: 1/2;
   font-size: 2.5rem;
-  font-weight: 500; }
+  font-weight: 500;
+  color: #161515; }
   .text-op-main:hover {
     opacity: 1;
     transition: opacity 1s ease; }
@@ -8812,6 +8821,7 @@ main section form fieldset {
   main section form fieldset input {
     font-size: 2.5rem;
     font-weight: 400;
+    color: #161515;
     background-color: #f5f3f3;
     opacity: .9;
     border: 1px solid #EAE8DC;
@@ -8854,6 +8864,7 @@ main section form fieldset {
   main section form fieldset select {
     font-size: 2.5rem;
     font-weight: 400;
+    color: #161515;
     height: 5rem;
     cursor: pointer;
     opacity: .9;
@@ -8876,8 +8887,10 @@ main section form fieldset {
         font-size: 2.3rem; } }
     main section form fieldset select option {
       font-size: 2.2rem;
-      font-weight: 300; }
+      font-weight: 300;
+      color: #161515; }
   main section form fieldset section input {
+    color: #161515;
     border: 0.5px solid #EAE8DC; }
     @media screen and (max-width: 361px) {
       main section form fieldset section input {
@@ -8904,6 +8917,7 @@ main section form fieldset {
   main section form fieldset textarea {
     font-size: 2.7rem;
     font-weight: 400;
+    color: #161515;
     background-color: #f5f3f3;
     opacity: .9;
     border: 1px solid #EAE8DC;
@@ -8914,11 +8928,13 @@ main section form fieldset {
   main section form fieldset div input {
     font-size: 2.3rem;
     font-weight: 300;
+    color: #161515;
     background-color: #f5f3f3;
     border-radius: 15%; }
   main section form fieldset div label {
     font-size: 2.3rem;
     font-weight: 300;
+    color: #161515;
     background-color: #f5f3f3;
     border-radius: 10%; }
     @media screen and (max-width: 361px) {
@@ -8952,6 +8968,7 @@ main section form fieldset {
 .titulo-carrito {
   font-size: 3rem;
   font-weight: 400;
+  color: #161515;
   margin-bottom: 5rem; }
   @media screen and (max-width: 361px) {
     .titulo-carrito {
@@ -9098,6 +9115,7 @@ main div section table td {
 .titulo-talles {
   font-size: 3rem;
   font-weight: 400;
+  color: #161515;
   margin-bottom: 5rem; }
   @media screen and (max-width: 361px) {
     .titulo-talles {
