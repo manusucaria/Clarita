@@ -17,21 +17,21 @@
     <body>
         <!--HEADER-->
         <header>
-            <nav class="navbar navbar-expand-md sticky-top nav-categorias">
+            <nav class="navbar navbar-expand-md nav-categorias">
                 <div class="w-100 d-flex">
-                    <div class="navbar-brand simbolo mb-auto me-auto">
+                    <div class="mb-auto me-auto">
                         <a class="navbar-brand" href="../index.html">
                             <img class="logo" src="../assets/img/logo.jpeg" alt="Logo de Conjuro" title="Conjuro">
                         </a>
                     </div>
-                    <div class="titulo d-grid gap-3 mx-auto">
+                    <div class="d-flex flex-column gap-3 mx-auto">
                             <a class="mx-auto mb-4 mb-md-0" href="../index.html">
                                 <h1 class="nav-letras-categorias">Conjuro</h1>
                             </a>
                             <a class="mx-auto d-none d-md-flex" href="nosotros.html" target="_blank">
                                     <p class="nav-letras-categorias">Heal Create Share</p>
                             </a>
-                            <button class="navbar-toggler bg-white hamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#opciones" name="button">
+                            <button class="navbar-toggler hamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#opciones" name="button">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="opciones">
@@ -51,7 +51,7 @@
                                     <li class="nav-item mx-0 mx-md-5">
                                         <a class="nav-link" href="camperas.html"><p class="text-center nav-letras-categorias">Camperas</p></a>
                                     </li>
-                                    <li class="nav-item mx-0 mx-md-5 d-md-none border-cat">
+                                    <li class="nav-item mx-0 mx-md-5 d-md-none border-li">
                                         <a class="nav-link mt-3" href="talles.html"><p class="text-center nav-letras-categorias">Talles</p></a>
                                     </li>
                                     <li class="nav-item mx-0 mx-md-5 d-md-none">
@@ -63,17 +63,17 @@
                                 </ul>
                             </div>
                     </div>
-                    <div class="align-self-start ms-auto">
-                        <div class="d-flex">
-                            <a class="botones-margin" href="../index.html">
+                    <div class="ms-auto mt-2">
+                        <div class="d-flex ms-auto">
+                            <a class="mx-1" href="../index.html">
                                 <img class="botones" src="../assets/img/home.png" alt="Icono de Home">
                             </a>
-                            <a class="botones-margin" href="carrito.html" target="_blank">
+                            <a class="mx-1" href="carrito.html" target="_blank">
                                 <img class="botones" src="../assets/img/carrito.png" alt="Icono de Carrito">
                             </a>
-                            <div class="d-none d-md-flex buscador" action="search">
-                                <input class="form-control barra-buscadora" type="search" placeholder="Search" aria-label="Search">
-                                <button type="submit"><img src="../assets/img/buscar.png" alt="Buscar"></button>
+                            <div class="d-none d-md-flex mx-1" action="search">
+                                <input class="form-control barra-buscadora mt-1" type="search" placeholder="Search" aria-label="Search">
+                                <button type="submit"><img src="../assets/img/buscar.png" alt="Lupa de Buscar"></button>
                             </div>
                         </div>
                     </div>
@@ -81,12 +81,12 @@
             </nav>
         </header>
             <!--MAIN-->
-        <main class="container-fluid">
-            <div class="row text-center">
+        <main>
+            <div class="text-center">
                 <h3 class="titulos-categorias">PANTALONES</h3>
             </div>
-            <div class="row grid-categorias-3">
-                <div class="card d-flex flex-column grid-1-3 p-4 mb-5 mx-auto">
+            <div class="grid-categorias-3">
+                <div class="card grid-1-3 d-flex flex-column p-4 mb-5 mx-auto">
                     <p class="card-title mx-auto parrafos px-2">Pantalon Jean Medio</p>
                     <div class="my-auto div-imagen">
                         <p class="text-op mx-auto my-auto text-center">Pantalón Jean tiro medio. Todos los talles disponibles. Consultar por colores y talles especiales.</p>
@@ -94,7 +94,7 @@
                     </div>
                     <p class="card-text me-auto mt-auto pt-2 precios">Precio: $3500</p>
                 </div>
-                <div class="card d-flex flex-column grid-2-3 p-4 mb-5 mx-auto">
+                <div class="card grid-2-3 d-flex flex-column p-4 mb-5 mx-auto">
                     <p class="card-title mx-auto parrafos px-2">Pantalon Jean Alto</p>
                     <div class="my-auto div-imagen">
                         <p class="text-op mx-auto my-auto text-center">Pantalón Jean tiro alto. Todos los talles disponibles. Consultar por colores y talles especiales.</p>
@@ -102,7 +102,7 @@
                     </div>
                     <p class="card-text me-auto mt-auto pt-2 precios">Precio: $5700</p>
                 </div>
-                <div class="card d-flex flex-column grid-3-3 p-4 mb-5 mx-auto">
+                <div class="card grid-3-3 d-flex flex-column p-4 mb-5 mx-auto">
                     <p class="card-title mx-auto parrafos px-2">Pantalon Jean Bajo</p>
                     <div class="my-auto div-imagen">
                         <p class="text-op mx-auto my-auto text-center">Pantalón Jean tiro bajo. Todos los talles disponibles. Consultar por colores y talles especiales.</p>
@@ -113,45 +113,43 @@
             <div>
         </main>
         <!--FOOTER-->
-        <footer class="container-fluid">
-            <div class="row d-flex pt-3 pb-1">
-                <div class="col d-flex">
-                    <ul class="d-flex flex-column ms-auto my-auto">
-                        <li class="d-flex">
-                            <a href="nuevo.html"><p>Nuevo</p></a>
-                        </li>
-                        <li class="d-flex">
-                            <a href="remeras.html"><p>Remeras</p></a>
-                        </li>
-                        <li class="d-flex">
-                            <a href="pantalones.html"><p>Pantalones</p></a>
-                        </li>
-                    </ul>
-                    <ul class="d-flex flex-column me-auto my-auto">
-                        <li class="d-flex">
-                            <a href="buzos.html"><p>Buzos</p></a>
-                        </li>
-                        <li class="d-flex">
-                            <a href="camperas.html"><p>Camperas</p></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col d-flex flex-column">
+        <footer>
+            <div class="grid-footer pt-3 pb-2">
+                <ul class="grid-footer-1 ms-auto my-auto">
+                    <li class="d-flex">
+                        <a href="nuevo.html"><p>Nuevo</p></a>
+                    </li>
+                    <li class="d-flex">
+                        <a href="remeras.html"><p>Remeras</p></a>
+                    </li>
+                    <li class="d-flex">
+                        <a href="pantalones.html"><p>Pantalones</p></a>
+                    </li>
+                </ul>
+                <ul class="grid-footer-2 me-auto my-auto">
+                    <li class="d-flex">
+                        <a href="buzos.html"><p>Buzos</p></a>
+                    </li>
+                    <li class="d-flex">
+                        <a href="camperas.html"><p>Camperas</p></a>
+                    </li>
+                </ul>
+                <div class="grid-footer-3 d-flex flex-column mx-auto">
                     <div class="d-flex mx-auto my-auto">
-                        <h4 class="me-4">Seguinos</h4>
+                        <h4 class="me-4 my-auto">Seguinos</h4>
                         <a class="me-2" href="https://facebook.com" target="_blank">
                             <img class="logos-redes me-4" src="../assets/img/facebook.ico" alt="Ir a Facebook" title="Facebook">
                         </a>
-                        <a class="me-2" href="https://www.instagram.com/conjuro_taller/" target="_blank">
+                        <a class="" href="https://www.instagram.com/conjuro_taller/" target="_blank">
                             <img class="logos-redes" src="../assets/img/instagram.ico" alt="Ir a Instagram" title="Instagram">
                         </a>
                     </div>
                     <div class="d-flex mx-auto mt-auto">
-                        <img class="copyright my-auto" src="../assets/img/copyright.ico" alt="Copyright">
-                        <h5 class="my-auto">CONJURO DISEÑO</h5></small>
+                        <img class="copyright" src="../assets/img/copyright.ico" alt="Copyright">
+                        <h5 class="mt-auto">CONJURO DISEÑO</h5></small>
                     </div>
                 </div>
-                <div class="col d-flex flex-column my-auto">
+                <div class="grid-footer-4 my-auto mx-auto">
                     <a class="mx-auto" href="talles.html" target="_blank"><p>Guía de Talles</p></a>
                     <a class="mx-auto" href="nosotros.html" target="_blank"><p>Sobre Nosotros</p></a>
                     <a class="mx-auto" href="carrito.html" target="_blank"><p>Contacto</p></a>

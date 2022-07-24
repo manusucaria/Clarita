@@ -2,6 +2,11 @@ main{
     h2{
         @include texto(7rem,500,map-get($map:$paleta, $key: 'white'));
         font-family: $richard;
+        transition: transform .1s;
+        &:hover{
+            color: $hovers2;
+            transform: translateX(.3px)
+        }
         @include cel{
             font-size: 5rem;
         }
@@ -22,7 +27,7 @@ main{
         div{
             a{
                 h3{
-                    @include texto(3rem,500,map-get($map:$paleta, $key: 'third'));
+                    @include texto(3rem,500,map-get($map:$paleta, $key: 'black'));
                     font-family: $richard;
                     transition: transform .1s;
                     &:hover{
@@ -49,6 +54,7 @@ main{
         }
     }
 }
+/**CLASES**/
 .margin-index{
     margin-top: 0;
     flex-grow: 1;
@@ -63,22 +69,27 @@ main{
 }
 .descripcion{
     @include texto(3.7rem,500,map-get($map:$paleta, $key: 'white'));
-                    font-family: $richard;
-                    @include cel{
-                        font-size: 3.5rem;
-                    }
-                    @media screen and (max-width: 687px) and (min-width: 362px){
-                        font-size: 4.6rem;
-                    }
-                    @include tablet-xl{
-                        font-size: 2.8rem;
-                    }
-                    @include desktop{
-                        font-size: 3.2rem;
-                    }
-                    @include wide{
-                        font-size: 3rem;
-                    }
+    font-family: $richard;
+    transition: transform .1s;
+    &:hover{
+        color: $hovers2;
+        transform: translateX(.3px)
+    }
+    @include cel{
+        font-size: 3.5rem;
+    }
+    @media screen and (max-width: 687px) and (min-width: 362px){
+        font-size: 4.6rem;
+    }
+    @include tablet-xl{
+        font-size: 2.8rem;
+    }
+    @include desktop{
+        font-size: 3.2rem;
+    }
+    @include wide{
+        font-size: 3rem;
+    }
 }
 /**CATEGORIAS**/
 .titulo-categorias{

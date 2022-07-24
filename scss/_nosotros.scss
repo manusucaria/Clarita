@@ -1,3 +1,4 @@
+/**CLASES NOSOTROS**/
 .w-carousel{
     width:70%;
     @include cel{
@@ -8,7 +9,7 @@
     }
 }
 .titulo-nosotros{
-    @include texto(3rem,400,map-get($map:$paleta, $key: 'third'));
+    @include texto(3rem,400,map-get($map:$paleta, $key: 'black'));
     margin-bottom: 5rem;
     @include cel{
         font-size: 3.7rem;
@@ -27,7 +28,7 @@
     }
 }
 .texto-nosotros{
-    @include texto(2.7rem,400,map-get($map:$paleta, $key: 'third'));
+    @include texto(2.7rem,400,map-get($map:$paleta, $key: 'black'));
     @media screen and (max-width: 450px){
         font-size: 3.1rem;
     }

@@ -6,7 +6,7 @@ footer{
         @include texto(2rem,400,map-get($map:$paleta, $key: 'white'));
         transition: transform .1s;
         &:hover{
-            color: $hoversMain;
+            color: $hovers2;
             transform: translateX(.5px);
         }
         @include cel{
@@ -88,4 +88,27 @@ footer{
     height: 2.5rem;
     width: 2.5rem;
     opacity: .5;
+}
+/**GRID FOOTER**/
+.grid-footer{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+}
+.grid-footer-1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.grid-footer-2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.grid-footer-3{
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+.grid-footer-4{
+    grid-column: 5/7;
+    grid-row: 1/2;
 }

@@ -1,3 +1,10 @@
+@keyframes animateDiv{
+    0%{background:linear-gradient(to top map-get($map:$paleta, $key: 'fondo'), map-get($map:$paleta, $key: 'main'))}
+    25%{background:linear-gradient(to right, map-get($map:$paleta, $key: 'secondary'), map-get($map:$paleta, $key: 'main'))}
+    50%{background:linear-gradient(to bottom, map-get($map:$paleta, $key: 'main'), map-get($map:$paleta, $key: 'secondary'))}
+    75%{background:linear-gradient(to left, map-get($map:$paleta, $key: 'secondary'), map-get($map:$paleta, $key: 'main'))}
+    100%{background:linear-gradient(to top, map-get($map:$paleta, $key: 'main'), map-get($map:$paleta, $key: 'fondo'))}
+}
 main section form fieldset{
     border-color: transparent;
     input{
@@ -134,13 +141,7 @@ main section form fieldset{
         }
     }
 }
-@keyframes animateDiv{
-    0%{background:linear-gradient(to top map-get($map:$paleta, $key: 'main'), map-get($map:$paleta, $key: 'white'))}
-    25%{background:linear-gradient(to right, map-get($map:$paleta, $key: 'secondary'), map-get($map:$paleta, $key: 'main'))}
-    50%{background:linear-gradient(to bottom, map-get($map:$paleta, $key: 'main'), map-get($map:$paleta, $key: 'secondary'))}
-    75%{background:linear-gradient(to left, map-get($map:$paleta, $key: 'secondary'), map-get($map:$paleta, $key: 'main'))}
-    100%{background:linear-gradient(to top, map-get($map:$paleta, $key: 'main'), map-get($map:$paleta, $key: 'white'))}
-}
+/**CLASES CARRITO**/
 .titulo-carrito{
     @include texto(3rem,400,map-get($map:$paleta, $key: 'black'));
     margin-bottom: 5rem;
@@ -209,4 +210,7 @@ main section form fieldset{
     animation-timing-function: ease;
     animation-duration: 1s;
     animation-delay: 0s;
+}
+.mapa{
+    min-height: 30vh;
 }

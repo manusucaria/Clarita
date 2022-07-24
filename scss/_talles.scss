@@ -22,6 +22,7 @@ main div{
         }
     }
 }
+/**CLASES TALLES**/
 .titulo-talles{
     @include texto(3rem,400,map-get($map:$paleta, $key: 'black'));
     margin-bottom: 5rem;
