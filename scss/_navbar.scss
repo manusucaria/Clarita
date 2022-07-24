@@ -3,7 +3,7 @@ header{
     background-color: rgba(map-get($map:$paleta, $key: 'fondo'), $alpha: .9);
     width: 100%;
     position: sticky;
-    top: 0px;
+    top: 0;
     z-index: 2;
     nav{
         border-bottom: map-get($map: $paleta, $key: 'main') .1rem solid;

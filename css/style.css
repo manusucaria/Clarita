@@ -7885,14 +7885,14 @@ header {
   background-color: rgba(242, 241, 233, 0.9);
   width: 100%;
   position: sticky;
-  top: 0px;
+  top: 0;
   z-index: 2; }
   header nav {
     border-bottom: #383146 0.1rem solid; }
   header h1, header .h1 {
     font-size: 6rem;
     font-weight: 600;
-    color: #161515;
+    color: #151414;
     font-family: "Dancing Script", sans-serif;
     transition: transform .1s; }
     header h1:hover, header .h1:hover {
@@ -7916,7 +7916,7 @@ header {
   header p {
     font-size: 2rem;
     font-weight: 300;
-    color: #161515;
+    color: #151414;
     font-family: "Roboto, sans-serif";
     transition: transform .1s; }
     header p:hover {
@@ -7945,7 +7945,7 @@ header {
     header ul li a p {
       font-size: 2.7rem;
       font-weight: 400;
-      color: #161515;
+      color: #151414;
       font-family: "Poor Richard", sans-serif;
       transition: transform .1s; }
       @media screen and (max-width: 361px) {
@@ -8026,10 +8026,10 @@ header {
 .hamburguesa {
   height: 30px;
   background-color: #f5f3f3;
-  border: 0.1rem solid #161515; }
+  border: 0.1rem solid #151414; }
 
 .border-li {
-  border-top: 0.1rem solid #161515; }
+  border-top: 0.1rem solid #151414; }
 
 .border-cat {
   border-top: 0.1rem solid #f5f3f3; }
@@ -8126,7 +8126,7 @@ main h2, main .h2 {
 main section div a h3, main section div a .h3 {
   font-size: 3rem;
   font-weight: 500;
-  color: #161515;
+  color: #151414;
   font-family: "Poor Richard", sans-serif;
   transition: transform .1s; }
   main section div a h3:hover, main section div a .h3:hover {
@@ -8191,7 +8191,7 @@ main section div a h3, main section div a .h3 {
   margin: 5rem 0;
   font-size: 3.5rem;
   font-weight: 400;
-  color: #161515;
+  color: #151414;
   font-family: "Poor Richard", sans-serif; }
   @media screen and (max-width: 361px) {
     .titulo-categorias {
@@ -8311,7 +8311,7 @@ main section div a h3, main section div a .h3 {
   grid-row: 1/2;
   font-size: 2.5rem;
   font-weight: 500;
-  color: #161515; }
+  color: #151414; }
   .text-op-main:hover {
     opacity: 1;
     transition: opacity 1s ease; }
@@ -8834,11 +8834,11 @@ footer {
   0% {
     background: linear-gradient(to top #F2F1E9, #383146); }
   25% {
-    background: linear-gradient(to right, , #383146); }
+    background: linear-gradient(to right, #63577a, #383146); }
   50% {
-    background: linear-gradient(to bottom, #383146, ); }
+    background: linear-gradient(to bottom, #383146, #63577a); }
   75% {
-    background: linear-gradient(to left, , #383146); }
+    background: linear-gradient(to left, #63577a, #383146); }
   100% {
     background: linear-gradient(to top, #383146, #F2F1E9); } }
 
@@ -8847,7 +8847,7 @@ main section form fieldset {
   main section form fieldset input {
     font-size: 2.5rem;
     font-weight: 400;
-    color: #161515;
+    color: #151414;
     background-color: #f5f3f3;
     opacity: .9;
     border: 1px solid #EAE8DC;
@@ -8890,7 +8890,7 @@ main section form fieldset {
   main section form fieldset select {
     font-size: 2.5rem;
     font-weight: 400;
-    color: #161515;
+    color: #151414;
     height: 5rem;
     cursor: pointer;
     opacity: .9;
@@ -8914,9 +8914,9 @@ main section form fieldset {
     main section form fieldset select option {
       font-size: 2.2rem;
       font-weight: 300;
-      color: #161515; }
+      color: #151414; }
   main section form fieldset section input {
-    color: #161515;
+    color: #151414;
     border: 0.5px solid #EAE8DC; }
     @media screen and (max-width: 361px) {
       main section form fieldset section input {
@@ -8943,7 +8943,7 @@ main section form fieldset {
   main section form fieldset textarea {
     font-size: 2.7rem;
     font-weight: 400;
-    color: #161515;
+    color: #151414;
     background-color: #f5f3f3;
     opacity: .9;
     border: 1px solid #EAE8DC;
@@ -8954,13 +8954,13 @@ main section form fieldset {
   main section form fieldset div input {
     font-size: 2.3rem;
     font-weight: 300;
-    color: #161515;
+    color: #151414;
     background-color: #f5f3f3;
     border-radius: 15%; }
   main section form fieldset div label {
     font-size: 2.3rem;
     font-weight: 300;
-    color: #161515;
+    color: #151414;
     background-color: #f5f3f3;
     border-radius: 10%; }
     @media screen and (max-width: 361px) {
@@ -8983,7 +8983,7 @@ main section form fieldset {
 .titulo-carrito {
   font-size: 3rem;
   font-weight: 400;
-  color: #161515;
+  color: #151414;
   margin-bottom: 5rem; }
   @media screen and (max-width: 361px) {
     .titulo-carrito {
@@ -9071,7 +9071,7 @@ main section form fieldset {
 .titulo-nosotros {
   font-size: 3rem;
   font-weight: 400;
-  color: #161515;
+  color: #151414;
   margin-bottom: 5rem; }
   @media screen and (max-width: 361px) {
     .titulo-nosotros {
@@ -9092,7 +9092,7 @@ main section form fieldset {
 .texto-nosotros {
   font-size: 2.7rem;
   font-weight: 400;
-  color: #161515; }
+  color: #151414; }
   @media screen and (max-width: 450px) {
     .texto-nosotros {
       font-size: 3.1rem; } }
@@ -9135,7 +9135,7 @@ main div section table td {
 .titulo-talles {
   font-size: 3rem;
   font-weight: 400;
-  color: #161515;
+  color: #151414;
   margin-bottom: 5rem; }
   @media screen and (max-width: 361px) {
     .titulo-talles {
