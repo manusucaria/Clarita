@@ -24,22 +24,22 @@ main div{
 }
 /**CLASES TALLES**/
 .titulo-talles{
-    @include texto(3rem,400,map-get($map:$paleta, $key: 'black'));
+    @include texto(3.5rem,400,map-get($map:$paleta, $key: 'black'));
     margin-bottom: 5rem;
     @include cel{
-        font-size: 3.7rem;
+        font-size: 5.5rem;
     }
     @media screen and (max-width: 687px) and (min-width: 362px){
-        font-size: 4rem;
+        font-size: 5.7rem;
     }
     @include tablet-xl{
-        font-size: 3rem;
+        font-size: 3.4rem;
     }
     @include desktop{
-        font-size: 3.1rem;
+        font-size: 3.5rem;
     }
     @include wide{
-        font-size: 2.7rem;
+        font-size: 3.6rem;
     }
 }
 .titulos-tablas{

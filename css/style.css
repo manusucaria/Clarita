@@ -7867,7 +7867,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: #F2F1E9;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden; }
 
 a {
@@ -8089,7 +8089,7 @@ header {
 
 /**CLASES NAV PAGES**/
 .nav-categorias {
-  background-color: #383146; }
+  background-color: rgba(56, 49, 70, 0.9); }
 
 .nav-letras-categorias {
   color: #f5f3f3;
@@ -8441,6 +8441,12 @@ footer {
 .grid-footer-4 {
   grid-column: 5/7;
   grid-row: 1/2; }
+
+.fondocat {
+  background-image: url(../assets/img/fondocat.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
 
 /**CLASES CATEGORIAS**/
 .titulos-categorias {
@@ -8965,13 +8971,13 @@ main section form fieldset {
     border-radius: 10%; }
     @media screen and (max-width: 361px) {
       main section form fieldset div label {
-        font-size: 2.5rem; } }
+        font-size: 3.4rem; } }
     @media screen and (max-width: 687px) and (min-width: 362px) {
       main section form fieldset div label {
-        font-size: 3.2rem; } }
+        font-size: 3.8rem; } }
     @media screen and (min-width: 688px) and (max-width: 900px) {
       main section form fieldset div label {
-        font-size: 2rem; } }
+        font-size: 2.3rem; } }
     @media screen and (min-width: 901px) and (max-width: 1110px) {
       main section form fieldset div label {
         font-size: 2.2rem; } }
@@ -8981,25 +8987,25 @@ main section form fieldset {
 
 /**CLASES CARRITO**/
 .titulo-carrito {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 400;
   color: #151414;
   margin-bottom: 5rem; }
   @media screen and (max-width: 361px) {
     .titulo-carrito {
-      font-size: 3.7rem; } }
+      font-size: 5.5rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .titulo-carrito {
-      font-size: 4rem; } }
+      font-size: 5.7rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .titulo-carrito {
-      font-size: 3rem; } }
+      font-size: 3.4rem; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     .titulo-carrito {
       font-size: 3.5rem; } }
   @media screen and (min-width: 1111px) and (max-width: 1350px) {
     .titulo-carrito {
-      font-size: 3rem; } }
+      font-size: 3.6rem; } }
 
 .titulo-mapa {
   font-size: 2.7rem;
@@ -9133,25 +9139,25 @@ main div section table td {
 
 /**CLASES TALLES**/
 .titulo-talles {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 400;
   color: #151414;
   margin-bottom: 5rem; }
   @media screen and (max-width: 361px) {
     .titulo-talles {
-      font-size: 3.7rem; } }
+      font-size: 5.5rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .titulo-talles {
-      font-size: 4rem; } }
+      font-size: 5.7rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .titulo-talles {
-      font-size: 3rem; } }
+      font-size: 3.4rem; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     .titulo-talles {
-      font-size: 3.1rem; } }
+      font-size: 3.5rem; } }
   @media screen and (min-width: 1111px) and (max-width: 1350px) {
     .titulo-talles {
-      font-size: 2.7rem; } }
+      font-size: 3.6rem; } }
 
 .titulos-tablas {
   font-size: 2.3rem;
@@ -9178,3 +9184,66 @@ main div section table td {
   @media screen and (max-width: 450px) and (min-width: 362px) {
     .width-tabla {
       width: 80%; } }
+
+.texto-404 {
+  font-size: 3.3rem;
+  font-weight: 500;
+  color: #151414;
+  font-family: "Poor Richard", sans-serif;
+  transition: transform .1s; }
+  @media screen and (max-width: 361px) {
+    .texto-404 {
+      font-size: 3.5rem; } }
+  @media screen and (max-width: 687px) and (min-width: 362px) {
+    .texto-404 {
+      font-size: 4.5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .texto-404 {
+      font-size: 2.8rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .texto-404 {
+      font-size: 3rem; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    .texto-404 {
+      font-size: 2.9rem; } }
+
+.lista-404 {
+  font-size: 3.3rem;
+  font-weight: 500;
+  color: #151414;
+  font-family: "Poor Richard", sans-serif;
+  transition: transform .1s; }
+  .lista-404:hover {
+    color: #454848;
+    transform: translateX(0.3px); }
+  @media screen and (max-width: 361px) {
+    .lista-404 {
+      font-size: 3.3rem; } }
+  @media screen and (max-width: 687px) and (min-width: 362px) {
+    .lista-404 {
+      font-size: 4.4rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .lista-404 {
+      font-size: 2.7rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .lista-404 {
+      font-size: 3rem; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    .lista-404 {
+      font-size: 3rem; } }
+
+.img-404 {
+  margin-top: 7rem;
+  width: 75%; }
+  @media screen and (max-width: 768px) {
+    .img-404 {
+      width: 75%; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .img-404 {
+      width: 55%; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    .img-404 {
+      width: 55%; } }
+  @media screen and (min-width: 1351px) {
+    .img-404 {
+      width: 55%; } }

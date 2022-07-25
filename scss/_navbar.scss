@@ -216,7 +216,7 @@ header{
 }
 /**CLASES NAV PAGES**/
 .nav-categorias{
-    background-color: map-get($map:$paleta, $key: 'main');
+    background-color: rgba(map-get($map:$paleta, $key: 'main'), $alpha: .9);
 }
 .nav-letras-categorias{
     color: map-get($map: $paleta, $key: 'white');
