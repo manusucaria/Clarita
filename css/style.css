@@ -8437,8 +8437,9 @@ footer {
 
 .fondocat {
   background-image: url(../assets/img/fondo3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: repeat;
   background-attachment: fixed; }
 
 /**CLASES CATEGORIAS**/
