@@ -8089,7 +8089,7 @@ header {
 
 /**CLASES NAV PAGES**/
 .nav-categorias {
-  background-color: rgba(56, 49, 70, 0.9); }
+  background-color: #383146; }
 
 .nav-letras-categorias {
   color: #f5f3f3;
@@ -9061,7 +9061,7 @@ main section form fieldset {
   animation-delay: 0s; }
 
 .mapa {
-  min-height: 30vh; }
+  min-height: 35vh; }
 
 /**CLASES NOSOTROS**/
 .main-nos {
@@ -9071,13 +9071,13 @@ main section form fieldset {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  min-height: 90vh; }
+  min-height: 100vh; }
 
 .videonos {
   grid-column: 1/4;
   grid-row: 1/2;
   max-width: 100%;
-  min-height: 100%;
+  min-height: 101%;
   object-fit: cover;
   z-index: -1; }
 
