@@ -8,19 +8,19 @@ main{
             transform: translateX(.3px)
         }
         @include cel{
-            font-size: 5rem;
+            font-size: 8.5rem;
         }
         @media screen and (max-width: 687px) and (min-width: 362px){
-            font-size: 4.9rem;
+            font-size: 8.5rem;
         }
         @include tablet-xl{
-            font-size: 2.7rem;
+            font-size: 4.7rem;
         }
         @include desktop{
-            font-size: 3.2rem;
+            font-size: 4.9rem;
         }
         @include wide{
-            font-size: 2.9rem;
+            font-size: 4.5rem;
         }
     }
     section{
@@ -61,6 +61,7 @@ main{
 /**HERO**/
 .hero{
     background-image: url(../assets/img/nosotros/nosotros3.webp);
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -70,13 +71,13 @@ main{
     @include texto(3.7rem,500,map-get($map:$paleta, $key: 'white'));
     font-family: $richard;
     @include cel{
-        font-size: 3.5rem;
+        font-size: 3.9rem;
     }
     @media screen and (max-width: 687px) and (min-width: 362px){
-        font-size: 4.6rem;
+        font-size: 4.9rem;
     }
     @include tablet-xl{
-        font-size: 2.8rem;
+        font-size: 3.1rem;
     }
     @include desktop{
         font-size: 3.2rem;
@@ -194,11 +195,8 @@ main{
     grid-row: 1/2;
     &:hover{
         opacity: 0.4;
-        -webkit-transition: opacity 500ms;
-        -moz-transition: opacity 500ms;
-        -o-transition: opacity 500ms;
-        -ms-transition: opacity 500ms;
-        transition: opacity 1s;
+        filter: blur(5px);
+        transition: opacity 1s, filter 1s;
     }
     @media screen and (max-width: 767px) {
         &:hover{

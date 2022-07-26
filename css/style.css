@@ -8109,19 +8109,19 @@ main h2, main .h2 {
     transform: translateX(0.3px); }
   @media screen and (max-width: 361px) {
     main h2, main .h2 {
-      font-size: 5rem; } }
+      font-size: 8.5rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     main h2, main .h2 {
-      font-size: 4.9rem; } }
+      font-size: 8.5rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     main h2, main .h2 {
-      font-size: 2.7rem; } }
+      font-size: 4.7rem; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     main h2, main .h2 {
-      font-size: 3.2rem; } }
+      font-size: 4.9rem; } }
   @media screen and (min-width: 1111px) and (max-width: 1350px) {
     main h2, main .h2 {
-      font-size: 2.9rem; } }
+      font-size: 4.5rem; } }
 
 main section div a h3, main section div a .h3 {
   font-size: 3rem;
@@ -8155,6 +8155,7 @@ main section div a h3, main section div a .h3 {
 /**HERO**/
 .hero {
   background-image: url(../assets/img/nosotros/nosotros3.webp);
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -8167,13 +8168,13 @@ main section div a h3, main section div a .h3 {
   font-family: "Poor Richard", sans-serif; }
   @media screen and (max-width: 361px) {
     .descripcion {
-      font-size: 3.5rem; } }
+      font-size: 3.9rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .descripcion {
-      font-size: 4.6rem; } }
+      font-size: 4.9rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .descripcion {
-      font-size: 2.8rem; } }
+      font-size: 3.1rem; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     .descripcion {
       font-size: 3.2rem; } }
@@ -8292,11 +8293,8 @@ main section div a h3, main section div a .h3 {
   grid-row: 1/2; }
   .img-op-main:hover {
     opacity: 0.4;
-    -webkit-transition: opacity 500ms;
-    -moz-transition: opacity 500ms;
-    -o-transition: opacity 500ms;
-    -ms-transition: opacity 500ms;
-    transition: opacity 1s; }
+    filter: blur(5px);
+    transition: opacity 1s, filter 1s; }
   @media screen and (max-width: 767px) {
     .img-op-main:hover {
       opacity: 1; } }
