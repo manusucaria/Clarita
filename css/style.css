@@ -8164,11 +8164,7 @@ main section div a h3, main section div a .h3 {
   font-size: 3.7rem;
   font-weight: 500;
   color: #f5f3f3;
-  font-family: "Poor Richard", sans-serif;
-  transition: transform .1s; }
-  .descripcion:hover {
-    color: #cdccc4;
-    transform: translateX(0.3px); }
+  font-family: "Poor Richard", sans-serif; }
   @media screen and (max-width: 361px) {
     .descripcion {
       font-size: 3.5rem; } }
@@ -8477,19 +8473,19 @@ footer {
   margin: 1rem 0; }
   @media screen and (max-width: 361px) {
     .parrafos {
-      font-size: 4rem; } }
+      font-size: 4.6rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .parrafos {
-      font-size: 5rem; } }
+      font-size: 5.3rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .parrafos {
-      font-size: 2.2rem; } }
+      font-size: 2.3rem; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     .parrafos {
-      font-size: 2.3rem; } }
+      font-size: 2.6rem; } }
   @media screen and (min-width: 1111px) and (max-width: 1350px) {
     .parrafos {
-      font-size: 2.1rem; } }
+      font-size: 2.2rem; } }
 
 .precios {
   font-size: 1.9rem;
@@ -8498,19 +8494,19 @@ footer {
   margin: 0.5rem 0; }
   @media screen and (max-width: 361px) {
     .precios {
-      font-size: 2.5rem; } }
+      font-size: 2.8rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .precios {
-      font-size: 3.3rem; } }
+      font-size: 3.7rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .precios {
-      font-size: 1.8rem; } }
+      font-size: 2.1rem; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     .precios {
-      font-size: 1.9rem; } }
+      font-size: 2rem; } }
   @media screen and (min-width: 1111px) and (max-width: 1350px) {
     .precios {
-      font-size: 1.6rem; } }
+      font-size: 1.7rem; } }
 
 /**GRID CATEGORIAS**/
 /**CATEGORIAS 3 ITEMS**/
@@ -8815,7 +8811,8 @@ footer {
   .img-op:hover {
     transform: scale(1.03);
     opacity: 0.3;
-    transition: transform 1s, opacity 1s; }
+    filter: blur(5px);
+    transition: transform 1s, opacity 1s, filter 1s; }
 
 .text-op {
   grid-column: 1/2;

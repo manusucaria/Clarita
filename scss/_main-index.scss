@@ -69,11 +69,6 @@ main{
 .descripcion{
     @include texto(3.7rem,500,map-get($map:$paleta, $key: 'white'));
     font-family: $richard;
-    transition: transform .1s;
-    &:hover{
-        color: $hovers2;
-        transform: translateX(.3px)
-    }
     @include cel{
         font-size: 3.5rem;
     }
