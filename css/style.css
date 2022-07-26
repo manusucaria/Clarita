@@ -3071,7 +3071,7 @@ textarea.form-control-lg {
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
-  border-radius: 10rem;
+  border-radius: 5rem;
   transition: box-shadow 0.15s ease-in-out; }
   @media (min-width: 1200px) {
     .navbar-toggler {
@@ -8442,7 +8442,7 @@ footer {
   grid-row: 1/2; }
 
 .fondocat {
-  background-image: url(../assets/img/fondocat.jpg);
+  background-image: url(../assets/img/fondo3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -9076,7 +9076,7 @@ main section form fieldset {
 .videonos {
   grid-column: 1/4;
   grid-row: 1/2;
-  max-width: 100%;
+  max-width: 100vw;
   min-height: 101%;
   object-fit: cover;
   z-index: -1; }
