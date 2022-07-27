@@ -8025,6 +8025,7 @@ header {
 
 .hamburguesa {
   height: 30px;
+  margin-bottom: 1.5rem;
   background-color: #f5f3f3;
   border: 0.1rem solid #151414; }
 

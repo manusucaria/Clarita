@@ -151,6 +151,7 @@ header{
 }
 .hamburguesa{
     height: 30px;
+    margin-bottom: 1.5rem;
     background-color: map-get($map: $paleta, $key: 'white');
     border: .1rem solid map-get($map: $paleta, $key: 'black');
 }
