@@ -27,7 +27,7 @@ main{
         div{
             a{
                 h3{
-                    @include texto(3rem,500,map-get($map:$paleta, $key: 'black'));
+                    @include texto(3rem,400,map-get($map:$paleta, $key: 'black'));
                     font-family: $richard;
                     transition: transform .1s;
                     &:hover{

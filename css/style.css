@@ -8126,7 +8126,7 @@ main h2, main .h2 {
 
 main section div a h3, main section div a .h3 {
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 400;
   color: #151414;
   font-family: "Poor Richard", sans-serif;
   transition: transform .1s; }
@@ -8552,11 +8552,13 @@ footer {
   @media screen and (max-width: 361px) {
     .grid-2-3 {
       grid-column: 1/7;
-      grid-row: 2/3; } }
+      grid-row: 2/3;
+      margin-top: 5rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .grid-2-3 {
       grid-column: 1/7;
-      grid-row: 2/3; } }
+      grid-row: 2/3;
+      margin-top: 5rem; } }
   @media screen and (min-width: 688px) and (max-width: 1110px) {
     .grid-2-3 {
       grid-column: 5/9;
@@ -8573,11 +8575,13 @@ footer {
   @media screen and (max-width: 361px) {
     .grid-3-3 {
       grid-column: 1/7;
-      grid-row: 3/4; } }
+      grid-row: 3/4;
+      margin-top: 5rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .grid-3-3 {
       grid-column: 1/7;
-      grid-row: 3/4; } }
+      grid-row: 3/4;
+      margin-top: 5rem; } }
   @media screen and (min-width: 688px) and (max-width: 1110px) {
     .grid-3-3 {
       grid-column: 3/7;
@@ -8628,11 +8632,13 @@ footer {
   @media screen and (max-width: 361px) {
     .grid-2-4 {
       grid-column: 1/7;
-      grid-row: 2/3; } }
+      grid-row: 2/3;
+      margin-top: 5rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .grid-2-4 {
       grid-column: 1/7;
-      grid-row: 2/3; } }
+      grid-row: 2/3;
+      margin-top: 5rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .grid-2-4 {
       grid-column: 4/7;
@@ -8653,11 +8659,13 @@ footer {
   @media screen and (max-width: 361px) {
     .grid-3-4 {
       grid-column: 1/7;
-      grid-row: 3/4; } }
+      grid-row: 3/4;
+      margin-top: 5rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .grid-3-4 {
       grid-column: 1/7;
-      grid-row: 3/4; } }
+      grid-row: 3/4;
+      margin-top: 5rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .grid-3-4 {
       grid-column: 1/4;
@@ -8678,11 +8686,13 @@ footer {
   @media screen and (max-width: 361px) {
     .grid-4-4 {
       grid-column: 1/7;
-      grid-row: 4/5; } }
+      grid-row: 4/5;
+      margin-top: 5rem; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .grid-4-4 {
       grid-column: 1/7;
-      grid-row: 4/5; } }
+      grid-row: 4/5;
+      margin-top: 5rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .grid-4-4 {
       grid-column: 4/7;
@@ -8729,7 +8739,8 @@ footer {
   @media screen and (max-width: 687px) {
     .grid-2-7 {
       grid-column: 1/7;
-      grid-row: 2/3; } }
+      grid-row: 2/3;
+      margin-top: 5rem; } }
   @media screen and (min-width: 688px) and (max-width: 1110px) {
     .grid-2-7 {
       grid-column: 5/9;
@@ -8742,7 +8753,8 @@ footer {
   @media screen and (max-width: 687px) {
     .grid-3-7 {
       grid-column: 1/7;
-      grid-row: 3/4; } }
+      grid-row: 3/4;
+      margin-top: 5rem; } }
   @media screen and (min-width: 688px) and (max-width: 1110px) {
     .grid-3-7 {
       grid-column: 1/5;
@@ -8755,7 +8767,8 @@ footer {
   @media screen and (max-width: 687px) {
     .grid-4-7 {
       grid-column: 1/7;
-      grid-row: 4/5; } }
+      grid-row: 4/5;
+      margin-top: 5rem; } }
   @media screen and (min-width: 688px) and (max-width: 1110px) {
     .grid-4-7 {
       grid-column: 5/9;
@@ -8768,7 +8781,8 @@ footer {
   @media screen and (max-width: 687px) {
     .grid-5-7 {
       grid-column: 1/7;
-      grid-row: 5/6; } }
+      grid-row: 5/6;
+      margin-top: 5rem; } }
   @media screen and (min-width: 688px) and (max-width: 1110px) {
     .grid-5-7 {
       grid-column: 1/5;
@@ -8781,7 +8795,8 @@ footer {
   @media screen and (max-width: 687px) {
     .grid-6-7 {
       grid-column: 1/7;
-      grid-row: 6/7; } }
+      grid-row: 6/7;
+      margin-top: 5rem; } }
   @media screen and (min-width: 688px) and (max-width: 1110px) {
     .grid-6-7 {
       grid-column: 5/9;
@@ -8794,7 +8809,8 @@ footer {
   @media screen and (max-width: 687px) {
     .grid-7-7 {
       grid-column: 1/7;
-      grid-row: 7/8; } }
+      grid-row: 7/8;
+      margin-top: 5rem; } }
   @media screen and (min-width: 688px) and (max-width: 1110px) {
     .grid-7-7 {
       grid-column: 3/7;
@@ -8918,14 +8934,18 @@ main section form fieldset {
       font-weight: 300;
       color: #151414; }
   main section form fieldset section input {
+    font-size: 2.5rem;
+    font-weight: 400;
     color: #151414;
-    border: 0.5px solid #EAE8DC; }
+    opacity: .9;
+    border: 1px solid #EAE8DC;
+    border-bottom: solid 1px; }
     @media screen and (max-width: 361px) {
       main section form fieldset section input {
-        font-size: 3.3rem; } }
+        font-size: 3.5rem; } }
     @media screen and (max-width: 687px) and (min-width: 362px) {
       main section form fieldset section input {
-        font-size: 3.6rem; } }
+        font-size: 3.8rem; } }
     @media screen and (min-width: 688px) and (max-width: 900px) {
       main section form fieldset section input {
         font-size: 2.4rem; } }
@@ -8943,16 +8963,28 @@ main section form fieldset {
       animation-delay: 0s;
       transform: translateX(0.5px); }
   main section form fieldset textarea {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     font-weight: 400;
     color: #151414;
     background-color: #f5f3f3;
     opacity: .9;
     border: 1px solid #EAE8DC;
     border-bottom: solid 1px; }
-    @media screen and (max-width: 1350px) {
+    @media screen and (max-width: 361px) {
       main section form fieldset textarea {
-        font-size: 2.2rem; } }
+        font-size: 3.5rem; } }
+    @media screen and (max-width: 687px) and (min-width: 362px) {
+      main section form fieldset textarea {
+        font-size: 3.8rem; } }
+    @media screen and (min-width: 688px) and (max-width: 900px) {
+      main section form fieldset textarea {
+        font-size: 2.4rem; } }
+    @media screen and (min-width: 901px) and (max-width: 1110px) {
+      main section form fieldset textarea {
+        font-size: 2.6rem; } }
+    @media screen and (min-width: 1111px) and (max-width: 1350px) {
+      main section form fieldset textarea {
+        font-size: 2.3rem; } }
   main section form fieldset div input {
     font-size: 2.3rem;
     font-weight: 300;
