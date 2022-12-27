@@ -38,7 +38,7 @@
 .titulo-nosotros{
     padding: 2rem;
     margin: 2rem 0;
-    @include texto(4.3rem,500,map-get($map:$paleta, $key: 'claro'));
+    @include texto(4.9rem,500,map-get($map:$paleta, $key: 'claro'));
     margin-top: 2rem;
     margin-bottom: 4rem;
     @include cel{
@@ -48,13 +48,13 @@
         font-size: 7.3rem;
     }
     @include tablet-xl{
-        font-size: 3.7rem;
+        font-size: 3.9rem;
     }
     @include desktop{
-        font-size: 3.8rem;
+        font-size: 4.1rem;
     }
     @include wide{
-        font-size: 3.9rem;
+        font-size: 4.3rem;
     }
 }
 .texto-nosotros{

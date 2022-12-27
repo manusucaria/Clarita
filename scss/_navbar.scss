@@ -10,7 +10,6 @@ header{
     }
     h1{
         @include texto(6rem,600,map-get($map:$paleta, $key: 'black'));
-        font-family: $conjuro;
         transition: transform .1s;
         &:hover{
             color: $hoversMain;
@@ -34,7 +33,7 @@ header{
     }
     p{
         @include texto(2rem,300,map-get($map:$paleta, $key: 'black'));
-        font-family: $subtitulo;
+        font-family: $conjuro;
         transition: transform .1s;
         &:hover{
             color: $hoversMain;
