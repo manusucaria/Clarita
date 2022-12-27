@@ -7867,7 +7867,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: #F2F1E9;
-  overflow-y: auto;
+  overflow-y: scroll;
   overflow-x: hidden; }
 
 a {
@@ -8147,6 +8147,35 @@ main section div a h3, main section div a .h3 {
   @media screen and (min-width: 1111px) and (max-width: 1350px) {
     main section div a h3, main section div a .h3 {
       font-size: 2.6rem; } }
+
+.img-wa {
+  position: fixed;
+  bottom: .1rem;
+  right: .1rem;
+  margin-top: auto;
+  margin-right: 2px;
+  margin-bottom: 6px;
+  height: 7rem;
+  width: 7rem; }
+  @media screen and (max-width: 361px) {
+    .img-wa {
+      height: 4.5rem;
+      width: 4.5rem; } }
+  @media screen and (max-width: 450px) and (min-width: 362px) {
+    .img-wa {
+      height: 4.7rem;
+      width: 4.7rem; } }
+  @media screen and (max-width: 687px) and (min-width: 451px) {
+    .img-wa {
+      height: 5rem;
+      width: 5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .img-wa {
+      height: 5.5rem;
+      width: 5.5rem; } }
+  .img-wa:hover {
+    transform: scale(1.04);
+    transition: transform .6s ease; }
 
 /**CLASES**/
 .margin-index {
@@ -8442,6 +8471,35 @@ footer {
   background-size: contain;
   background-repeat: repeat;
   background-attachment: fixed; }
+
+.img-wa {
+  position: fixed;
+  bottom: .1rem;
+  right: .1rem;
+  margin-top: auto;
+  margin-right: 2px;
+  margin-bottom: 6px;
+  height: 7rem;
+  width: 7rem; }
+  @media screen and (max-width: 361px) {
+    .img-wa {
+      height: 4.5rem;
+      width: 4.5rem; } }
+  @media screen and (max-width: 450px) and (min-width: 362px) {
+    .img-wa {
+      height: 4.7rem;
+      width: 4.7rem; } }
+  @media screen and (max-width: 687px) and (min-width: 451px) {
+    .img-wa {
+      height: 5rem;
+      width: 5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .img-wa {
+      height: 5.5rem;
+      width: 5.5rem; } }
+  .img-wa:hover {
+    transform: scale(1.04);
+    transition: transform .6s ease; }
 
 /**CLASES CATEGORIAS**/
 .titulos-categorias {
@@ -9041,6 +9099,35 @@ main section form fieldset {
       main section form fieldset div label {
         font-size: 2rem; } }
 
+.img-wa {
+  position: fixed;
+  bottom: .1rem;
+  right: .1rem;
+  margin-top: auto;
+  margin-right: 2px;
+  margin-bottom: 6px;
+  height: 7rem;
+  width: 7rem; }
+  @media screen and (max-width: 361px) {
+    .img-wa {
+      height: 4.5rem;
+      width: 4.5rem; } }
+  @media screen and (max-width: 450px) and (min-width: 362px) {
+    .img-wa {
+      height: 4.7rem;
+      width: 4.7rem; } }
+  @media screen and (max-width: 687px) and (min-width: 451px) {
+    .img-wa {
+      height: 5rem;
+      width: 5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .img-wa {
+      height: 5.5rem;
+      width: 5.5rem; } }
+  .img-wa:hover {
+    transform: scale(1.04);
+    transition: transform .6s ease; }
+
 /**CLASES CARRITO**/
 .titulo-carrito {
   font-size: 3.5rem;
@@ -9157,6 +9244,35 @@ main section form fieldset {
     .w-nos {
       width: 80%; } }
 
+.img-wa {
+  position: fixed;
+  bottom: .1rem;
+  right: .1rem;
+  margin-top: auto;
+  margin-right: 2px;
+  margin-bottom: 6px;
+  height: 7rem;
+  width: 7rem; }
+  @media screen and (max-width: 361px) {
+    .img-wa {
+      height: 4.5rem;
+      width: 4.5rem; } }
+  @media screen and (max-width: 450px) and (min-width: 362px) {
+    .img-wa {
+      height: 4.7rem;
+      width: 4.7rem; } }
+  @media screen and (max-width: 687px) and (min-width: 451px) {
+    .img-wa {
+      height: 5rem;
+      width: 5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .img-wa {
+      height: 5.5rem;
+      width: 5.5rem; } }
+  .img-wa:hover {
+    transform: scale(1.04);
+    transition: transform .6s ease; }
+
 .titulo-nosotros {
   padding: 2rem;
   margin: 2rem 0;
@@ -9223,6 +9339,35 @@ main div section table td {
   @media screen and (max-width: 687px) and (min-width: 362px) {
     main div section table td {
       font-size: 3.1rem; } }
+
+.img-wa {
+  position: fixed;
+  bottom: .1rem;
+  right: .1rem;
+  margin-top: auto;
+  margin-right: 2px;
+  margin-bottom: 6px;
+  height: 7rem;
+  width: 7rem; }
+  @media screen and (max-width: 361px) {
+    .img-wa {
+      height: 4.5rem;
+      width: 4.5rem; } }
+  @media screen and (max-width: 450px) and (min-width: 362px) {
+    .img-wa {
+      height: 4.7rem;
+      width: 4.7rem; } }
+  @media screen and (max-width: 687px) and (min-width: 451px) {
+    .img-wa {
+      height: 5rem;
+      width: 5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .img-wa {
+      height: 5.5rem;
+      width: 5.5rem; } }
+  .img-wa:hover {
+    transform: scale(1.04);
+    transition: transform .6s ease; }
 
 /**CLASES TALLES**/
 .titulo-talles {
